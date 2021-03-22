@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize');
 const db = require('../config/postgres');
 
-const Gig = db.define('Sales', {
+//Schema for data
+const Sales = db.define('Sales', {
   Region: {
     type: Sequelize.STRING
   },
