@@ -1,5 +1,6 @@
 const Sequelize = require('sequelize');
 
+//databse connection
 module.exports =  new Sequelize('Sales','Postgres' ,'0000', {
   host: 'localhost',
   dialect: 'postgres',
